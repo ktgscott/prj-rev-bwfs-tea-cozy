@@ -1,0 +1,146 @@
+body{
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+
+div{
+  display: block;
+}
+
+.flex-container{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.main{
+  padding-top: 69px;
+  opacity: 0.9;
+  margin: auto;
+}
+
+/* header */
+header{
+  display: flex;
+  align-items: center;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  height: 69px;
+  background-color: black;
+  border-bottom: 1px solid seashell;
+}
+
+header img{
+  height: 50px;
+  padding-left: 10px;
+}
+
+nav{
+  text-align: right;
+  flex-grow: 1;
+}
+
+nav span{
+  display: inline-block;
+  padding: 20px 10px;
+}
+
+a{
+  color: white;
+  text-decoration: underline;
+}
+
+/* mission */
+#mission{
+  width: 1200px;
+  height: 700px;
+  padding-top: 70px;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+}
+
+#mission .content{
+  margin: auto;
+  width: 100%;
+  background-color: black;
+}
+
+h2, h4{
+  margin: 0px;
+  padding: 10px;
+}
+
+/* tea of the month */
+#month{
+  height: 650px;
+  width: 1000px;
+  margin: auto;
+  padding-top: 50px;
+}
+
+#month .content{
+  padding-bottom: 10px;
+}
+
+.item{
+  padding: 10px;
+}
+
+.item img{
+  height: 200px;
+  width: 300px;
+}
+
+.item span{
+  display: block;
+  font-weight: bold;
+  text-align: center;
+  padding: 5px;
+}
+
+.items{
+  display: flex;
+  justify-content: center;
+}
+
+/* location */
+#locations{
+  background-image:url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+  height: 500px;
+  padding-top: 50px;
+}
+
+#locations .flex-container{
+  margin: auto;
+  width: 1200px;
+}
+
+.flex-container .locations{
+  padding-top: 15px;
+}
+
+.address{
+  opacity: 1.0;
+  padding: 10px;
+  margin: 5px 20px;
+  background-color: black;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.locations{
+  display: flex;
+  justify-content: center;
+}
+
+/* footer */
+.copyright{
+  padding-left: 20px;
+  text-align: left;
+}
